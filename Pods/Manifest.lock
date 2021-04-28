@@ -1,0 +1,33 @@
+PODS:
+  - AETextFieldValidator (1.1.2)
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - MBProgressHUD (1.1.0)
+  - STRatingControl (1.1.2)
+
+DEPENDENCIES:
+  - AETextFieldValidator (~> 1.1)
+  - Alamofire (~> 4.5)
+  - AlamofireImage (~> 3.3)
+  - MBProgressHUD (= 1.1.0)
+  - STRatingControl
+
+SPEC REPOS:
+  trunk:
+    - AETextFieldValidator
+    - Alamofire
+    - AlamofireImage
+    - MBProgressHUD
+    - STRatingControl
+
+SPEC CHECKSUMS:
+  AETextFieldValidator: 9c760ae43a97626e7840a810ac62a5cd2572c356
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  STRatingControl: 254ee5f6dd174e3fa9d8365a08326291fd0bd950
+
+PODFILE CHECKSUM: 5e5e25d5ab4cbbb3b098580666f8c149a55d8619
+
+COCOAPODS: 1.10.1
