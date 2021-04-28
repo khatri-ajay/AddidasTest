@@ -3,12 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE1CF6EB397918EDA1B5D74 /* Pods_AddidasTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B651DB079F877031415EB6 /* Pods_AddidasTest.framework */; };
+		8905206F57DF46E770D4F899 /* Pods_AddidasTest_AddidasTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69DA5CEB5FF32AEB918433 /* Pods_AddidasTest_AddidasTestUITests.framework */; };
+		B7216D552638B2A4006EBB07 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7216D542638B2A4006EBB07 /* ProductDetailViewController.swift */; };
+		B7216D5F26393258006EBB07 /* ProductReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7216D5D26393258006EBB07 /* ProductReviewTableViewCell.swift */; };
+		B7216D6026393258006EBB07 /* ProductReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7216D5E26393258006EBB07 /* ProductReviewTableViewCell.xib */; };
+		B7216D7426394C36006EBB07 /* AddRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7216D7326394C35006EBB07 /* AddRatingViewController.swift */; };
+		B7216D7C26394C80006EBB07 /* ModalAlertBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7216D7A26394C80006EBB07 /* ModalAlertBaseViewController.swift */; };
+		B7216D88263955C7006EBB07 /* utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7216D87263955C7006EBB07 /* utility.swift */; };
 		B73156E126387E2F00A6F4AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73156E026387E2F00A6F4AD /* AppDelegate.swift */; };
-		B73156E326387E2F00A6F4AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73156E226387E2F00A6F4AD /* SceneDelegate.swift */; };
 		B73156E526387E2F00A6F4AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73156E426387E2F00A6F4AD /* ViewController.swift */; };
 		B73156E826387E2F00A6F4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73156E626387E2F00A6F4AD /* Main.storyboard */; };
 		B73156EB26387E2F00A6F4AD /* AddidasTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B73156E926387E2F00A6F4AD /* AddidasTest.xcdatamodeld */; };
@@ -16,6 +23,28 @@
 		B73156F026387E3200A6F4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73156EE26387E3200A6F4AD /* LaunchScreen.storyboard */; };
 		B73156FB26387E3300A6F4AD /* AddidasTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73156FA26387E3300A6F4AD /* AddidasTestTests.swift */; };
 		B731570626387E3300A6F4AD /* AddidasTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731570526387E3300A6F4AD /* AddidasTestUITests.swift */; };
+		B7315736263884FA00A6F4AD /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7315734263884FA00A6F4AD /* WebServices.swift */; };
+		B731573C2638858C00A6F4AD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731573B2638858C00A6F4AD /* AppConstants.swift */; };
+		B7315742263888C200A6F4AD /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7315741263888C200A6F4AD /* ProductListViewController.swift */; };
+		B731574C2638897C00A6F4AD /* DynamicParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731574B2638897C00A6F4AD /* DynamicParser.swift */; };
+		B731576D26388AD300A6F4AD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731576C26388AD300A6F4AD /* ProductModel.swift */; };
+		B731576E26388AD300A6F4AD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731576C26388AD300A6F4AD /* ProductModel.swift */; };
+		B731576F26388AD300A6F4AD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731576C26388AD300A6F4AD /* ProductModel.swift */; };
+		B731577426388AFF00A6F4AD /* ReviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731577326388AFF00A6F4AD /* ReviewsModel.swift */; };
+		B731577526388AFF00A6F4AD /* ReviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731577326388AFF00A6F4AD /* ReviewsModel.swift */; };
+		B731577626388AFF00A6F4AD /* ReviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731577326388AFF00A6F4AD /* ReviewsModel.swift */; };
+		B731577F26388C5F00A6F4AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731577E26388C5F00A6F4AD /* BaseViewController.swift */; };
+		B731578026388C5F00A6F4AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731577E26388C5F00A6F4AD /* BaseViewController.swift */; };
+		B731578126388C5F00A6F4AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731577E26388C5F00A6F4AD /* BaseViewController.swift */; };
+		B731578826388DDA00A6F4AD /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7315741263888C200A6F4AD /* ProductListViewController.swift */; };
+		B731578C26388DDB00A6F4AD /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7315741263888C200A6F4AD /* ProductListViewController.swift */; };
+		B731579326388F2D00A6F4AD /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731579126388F2D00A6F4AD /* ProductListTableViewCell.swift */; };
+		B731579426388F2D00A6F4AD /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731579126388F2D00A6F4AD /* ProductListTableViewCell.swift */; };
+		B731579526388F2D00A6F4AD /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731579126388F2D00A6F4AD /* ProductListTableViewCell.swift */; };
+		B731579626388F2D00A6F4AD /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B731579226388F2D00A6F4AD /* ProductListTableViewCell.xib */; };
+		B731579726388F2D00A6F4AD /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B731579226388F2D00A6F4AD /* ProductListTableViewCell.xib */; };
+		B731579826388F2D00A6F4AD /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B731579226388F2D00A6F4AD /* ProductListTableViewCell.xib */; };
+		B8468968A2739C690A0C0496 /* Pods_AddidasTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7C27C29418E6BA827F6BB6 /* Pods_AddidasTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +65,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F80FA091A0453474978299D /* Pods-AddidasTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddidasTestTests.release.xcconfig"; path = "Target Support Files/Pods-AddidasTestTests/Pods-AddidasTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		50B651DB079F877031415EB6 /* Pods_AddidasTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddidasTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70544E07DF214E8526B326E4 /* Pods-AddidasTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddidasTest.debug.xcconfig"; path = "Target Support Files/Pods-AddidasTest/Pods-AddidasTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7C27C29418E6BA827F6BB6 /* Pods_AddidasTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddidasTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DB291040A7DCB49738A51F /* Pods-AddidasTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddidasTest.release.xcconfig"; path = "Target Support Files/Pods-AddidasTest/Pods-AddidasTest.release.xcconfig"; sourceTree = "<group>"; };
+		87EF76DECD6D946436134D47 /* Pods-AddidasTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddidasTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AddidasTestTests/Pods-AddidasTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2C30DECBF745E4AB5675F1 /* Pods-AddidasTest-AddidasTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddidasTest-AddidasTestUITests.release.xcconfig"; path = "Target Support Files/Pods-AddidasTest-AddidasTestUITests/Pods-AddidasTest-AddidasTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7216D542638B2A4006EBB07 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		B7216D5D26393258006EBB07 /* ProductReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductReviewTableViewCell.swift; sourceTree = "<group>"; };
+		B7216D5E26393258006EBB07 /* ProductReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductReviewTableViewCell.xib; sourceTree = "<group>"; };
+		B7216D7326394C35006EBB07 /* AddRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRatingViewController.swift; sourceTree = "<group>"; };
+		B7216D7A26394C80006EBB07 /* ModalAlertBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAlertBaseViewController.swift; sourceTree = "<group>"; };
+		B7216D87263955C7006EBB07 /* utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utility.swift; sourceTree = "<group>"; };
 		B73156DD26387E2E00A6F4AD /* AddidasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddidasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73156E026387E2F00A6F4AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B73156E226387E2F00A6F4AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B73156E426387E2F00A6F4AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B73156E726387E2F00A6F4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B73156EA26387E2F00A6F4AD /* AddidasTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddidasTest.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +92,17 @@
 		B731570126387E3300A6F4AD /* AddidasTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddidasTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B731570526387E3300A6F4AD /* AddidasTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddidasTestUITests.swift; sourceTree = "<group>"; };
 		B731570726387E3300A6F4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7315734263884FA00A6F4AD /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		B731573B2638858C00A6F4AD /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B7315741263888C200A6F4AD /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		B731574B2638897C00A6F4AD /* DynamicParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicParser.swift; sourceTree = "<group>"; };
+		B731576C26388AD300A6F4AD /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		B731577326388AFF00A6F4AD /* ReviewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsModel.swift; sourceTree = "<group>"; };
+		B731577E26388C5F00A6F4AD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B731579126388F2D00A6F4AD /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		B731579226388F2D00A6F4AD /* ProductListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListTableViewCell.xib; sourceTree = "<group>"; };
+		BC69DA5CEB5FF32AEB918433 /* Pods_AddidasTest_AddidasTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddidasTest_AddidasTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C482CA67B517DB2CB63C0E93 /* Pods-AddidasTest-AddidasTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddidasTest-AddidasTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AddidasTest-AddidasTestUITests/Pods-AddidasTest-AddidasTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE1CF6EB397918EDA1B5D74 /* Pods_AddidasTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8468968A2739C690A0C0496 /* Pods_AddidasTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +126,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8905206F57DF46E770D4F899 /* Pods_AddidasTest_AddidasTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816EF6ECFB195FAE7A91F84D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50B651DB079F877031415EB6 /* Pods_AddidasTest.framework */,
+				BC69DA5CEB5FF32AEB918433 /* Pods_AddidasTest_AddidasTestUITests.framework */,
+				7B7C27C29418E6BA827F6BB6 /* Pods_AddidasTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7216D532638B280006EBB07 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D542638B2A4006EBB07 /* ProductDetailViewController.swift */,
+			);
+			path = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
+		B7216D5C26393234006EBB07 /* ProductReviewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D5D26393258006EBB07 /* ProductReviewTableViewCell.swift */,
+				B7216D5E26393258006EBB07 /* ProductReviewTableViewCell.xib */,
+			);
+			path = ProductReviewTableViewCell;
+			sourceTree = "<group>";
+		};
+		B7216D7226394C12006EBB07 /* AddRatingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D7326394C35006EBB07 /* AddRatingViewController.swift */,
+			);
+			path = AddRatingViewController;
+			sourceTree = "<group>";
+		};
+		B7216D7826394C80006EBB07 /* ModalAlertBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D7A26394C80006EBB07 /* ModalAlertBaseViewController.swift */,
+			);
+			path = ModalAlertBaseController;
+			sourceTree = "<group>";
+		};
+		B7216D86263955A7006EBB07 /* ReusableCode */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D87263955C7006EBB07 /* utility.swift */,
+			);
+			path = ReusableCode;
+			sourceTree = "<group>";
+		};
 		B73156D426387E2E00A6F4AD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +191,8 @@
 				B73156F926387E3300A6F4AD /* AddidasTestTests */,
 				B731570426387E3300A6F4AD /* AddidasTestUITests */,
 				B73156DE26387E2E00A6F4AD /* Products */,
+				D2F0CEAA2069C40CB6878CE2 /* Pods */,
+				816EF6ECFB195FAE7A91F84D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +209,8 @@
 		B73156DF26387E2E00A6F4AD /* AddidasTest */ = {
 			isa = PBXGroup;
 			children = (
-				B73156E026387E2F00A6F4AD /* AppDelegate.swift */,
-				B73156E226387E2F00A6F4AD /* SceneDelegate.swift */,
+				B731572E26387FE000A6F4AD /* SourceCode */,
 				B73156E426387E2F00A6F4AD /* ViewController.swift */,
-				B73156E626387E2F00A6F4AD /* Main.storyboard */,
 				B73156EC26387E3200A6F4AD /* Assets.xcassets */,
 				B73156EE26387E3200A6F4AD /* LaunchScreen.storyboard */,
 				B73156F126387E3200A6F4AD /* Info.plist */,
@@ -131,6 +237,154 @@
 			path = AddidasTestUITests;
 			sourceTree = "<group>";
 		};
+		B731572926387F7C00A6F4AD /* MainStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				B73156E626387E2F00A6F4AD /* Main.storyboard */,
+			);
+			path = MainStoryboard;
+			sourceTree = "<group>";
+		};
+		B731572A26387F9000A6F4AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D7826394C80006EBB07 /* ModalAlertBaseController */,
+				B7216D7226394C12006EBB07 /* AddRatingViewController */,
+				B7216D532638B280006EBB07 /* ProductDetailViewController */,
+				B731577D26388C5F00A6F4AD /* BaseViewController */,
+				B7315740263888A100A6F4AD /* ProductListViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B731572B26387F9C00A6F4AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B731575B26388A7E00A6F4AD /* ReviewsModel */,
+				B7315750263889CC00A6F4AD /* ProductsModel */,
+				B7315732263884FA00A6F4AD /* ServiceModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B731572C26387FB200A6F4AD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B73156E026387E2F00A6F4AD /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B731572D26387FBC00A6F4AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D5C26393234006EBB07 /* ProductReviewTableViewCell */,
+				B731579026388EFF00A6F4AD /* ProductListTableViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B731572E26387FE000A6F4AD /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				B7216D86263955A7006EBB07 /* ReusableCode */,
+				B73157492638896D00A6F4AD /* Helper */,
+				B731573A2638858C00A6F4AD /* Constants */,
+				B731572D26387FBC00A6F4AD /* Cells */,
+				B731572C26387FB200A6F4AD /* AppDelegate */,
+				B731572B26387F9C00A6F4AD /* Models */,
+				B731572A26387F9000A6F4AD /* ViewControllers */,
+				B731572926387F7C00A6F4AD /* MainStoryboard */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		B7315732263884FA00A6F4AD /* ServiceModel */ = {
+			isa = PBXGroup;
+			children = (
+				B7315734263884FA00A6F4AD /* WebServices.swift */,
+			);
+			path = ServiceModel;
+			sourceTree = "<group>";
+		};
+		B731573A2638858C00A6F4AD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B731573B2638858C00A6F4AD /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B7315740263888A100A6F4AD /* ProductListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7315741263888C200A6F4AD /* ProductListViewController.swift */,
+			);
+			path = ProductListViewController;
+			sourceTree = "<group>";
+		};
+		B73157492638896D00A6F4AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B731574A2638897C00A6F4AD /* JsonParser */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B731574A2638897C00A6F4AD /* JsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				B731574B2638897C00A6F4AD /* DynamicParser.swift */,
+			);
+			path = JsonParser;
+			sourceTree = "<group>";
+		};
+		B7315750263889CC00A6F4AD /* ProductsModel */ = {
+			isa = PBXGroup;
+			children = (
+				B731576C26388AD300A6F4AD /* ProductModel.swift */,
+			);
+			path = ProductsModel;
+			sourceTree = "<group>";
+		};
+		B731575B26388A7E00A6F4AD /* ReviewsModel */ = {
+			isa = PBXGroup;
+			children = (
+				B731577326388AFF00A6F4AD /* ReviewsModel.swift */,
+			);
+			path = ReviewsModel;
+			sourceTree = "<group>";
+		};
+		B731577D26388C5F00A6F4AD /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B731577E26388C5F00A6F4AD /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		B731579026388EFF00A6F4AD /* ProductListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B731579126388F2D00A6F4AD /* ProductListTableViewCell.swift */,
+				B731579226388F2D00A6F4AD /* ProductListTableViewCell.xib */,
+			);
+			path = ProductListTableViewCell;
+			sourceTree = "<group>";
+		};
+		D2F0CEAA2069C40CB6878CE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70544E07DF214E8526B326E4 /* Pods-AddidasTest.debug.xcconfig */,
+				87DB291040A7DCB49738A51F /* Pods-AddidasTest.release.xcconfig */,
+				C482CA67B517DB2CB63C0E93 /* Pods-AddidasTest-AddidasTestUITests.debug.xcconfig */,
+				9B2C30DECBF745E4AB5675F1 /* Pods-AddidasTest-AddidasTestUITests.release.xcconfig */,
+				87EF76DECD6D946436134D47 /* Pods-AddidasTestTests.debug.xcconfig */,
+				2F80FA091A0453474978299D /* Pods-AddidasTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +392,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B731570A26387E3300A6F4AD /* Build configuration list for PBXNativeTarget "AddidasTest" */;
 			buildPhases = (
+				D336E1F26DDDEDC361EC0B9B /* [CP] Check Pods Manifest.lock */,
 				B73156D926387E2E00A6F4AD /* Sources */,
 				B73156DA26387E2E00A6F4AD /* Frameworks */,
 				B73156DB26387E2E00A6F4AD /* Resources */,
+				6C5A41548159E4CD07113C19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +411,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B731570D26387E3300A6F4AD /* Build configuration list for PBXNativeTarget "AddidasTestTests" */;
 			buildPhases = (
+				7ABEF6B03CCE98DE8C522F77 /* [CP] Check Pods Manifest.lock */,
 				B73156F226387E3300A6F4AD /* Sources */,
 				B73156F326387E3300A6F4AD /* Frameworks */,
 				B73156F426387E3300A6F4AD /* Resources */,
@@ -173,9 +430,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B731571026387E3300A6F4AD /* Build configuration list for PBXNativeTarget "AddidasTestUITests" */;
 			buildPhases = (
+				FC48828AFE11F8681605F8B5 /* [CP] Check Pods Manifest.lock */,
 				B73156FD26387E3300A6F4AD /* Sources */,
 				B73156FE26387E3300A6F4AD /* Frameworks */,
 				B73156FF26387E3300A6F4AD /* Resources */,
+				B92C696D5DC11A69AD295A3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,8 +494,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73156F026387E3200A6F4AD /* LaunchScreen.storyboard in Resources */,
+				B731579626388F2D00A6F4AD /* ProductListTableViewCell.xib in Resources */,
 				B73156ED26387E3200A6F4AD /* Assets.xcassets in Resources */,
 				B73156E826387E2F00A6F4AD /* Main.storyboard in Resources */,
+				B7216D6026393258006EBB07 /* ProductReviewTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +505,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B731579726388F2D00A6F4AD /* ProductListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,20 +513,136 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B731579826388F2D00A6F4AD /* ProductListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5A41548159E4CD07113C19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddidasTest/Pods-AddidasTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddidasTest/Pods-AddidasTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddidasTest/Pods-AddidasTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABEF6B03CCE98DE8C522F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddidasTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92C696D5DC11A69AD295A3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddidasTest-AddidasTestUITests/Pods-AddidasTest-AddidasTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddidasTest-AddidasTestUITests/Pods-AddidasTest-AddidasTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddidasTest-AddidasTestUITests/Pods-AddidasTest-AddidasTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D336E1F26DDDEDC361EC0B9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddidasTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC48828AFE11F8681605F8B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddidasTest-AddidasTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B73156D926387E2E00A6F4AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B731574C2638897C00A6F4AD /* DynamicParser.swift in Sources */,
+				B731577F26388C5F00A6F4AD /* BaseViewController.swift in Sources */,
+				B731573C2638858C00A6F4AD /* AppConstants.swift in Sources */,
+				B7216D552638B2A4006EBB07 /* ProductDetailViewController.swift in Sources */,
+				B7315742263888C200A6F4AD /* ProductListViewController.swift in Sources */,
+				B731579326388F2D00A6F4AD /* ProductListTableViewCell.swift in Sources */,
+				B7315736263884FA00A6F4AD /* WebServices.swift in Sources */,
 				B73156E526387E2F00A6F4AD /* ViewController.swift in Sources */,
 				B73156E126387E2F00A6F4AD /* AppDelegate.swift in Sources */,
+				B731577426388AFF00A6F4AD /* ReviewsModel.swift in Sources */,
 				B73156EB26387E2F00A6F4AD /* AddidasTest.xcdatamodeld in Sources */,
-				B73156E326387E2F00A6F4AD /* SceneDelegate.swift in Sources */,
+				B7216D7C26394C80006EBB07 /* ModalAlertBaseViewController.swift in Sources */,
+				B7216D88263955C7006EBB07 /* utility.swift in Sources */,
+				B7216D5F26393258006EBB07 /* ProductReviewTableViewCell.swift in Sources */,
+				B7216D7426394C36006EBB07 /* AddRatingViewController.swift in Sources */,
+				B731576D26388AD300A6F4AD /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +650,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B731576E26388AD300A6F4AD /* ProductModel.swift in Sources */,
+				B731578026388C5F00A6F4AD /* BaseViewController.swift in Sources */,
+				B731578826388DDA00A6F4AD /* ProductListViewController.swift in Sources */,
+				B731577526388AFF00A6F4AD /* ReviewsModel.swift in Sources */,
 				B73156FB26387E3300A6F4AD /* AddidasTestTests.swift in Sources */,
+				B731579426388F2D00A6F4AD /* ProductListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +663,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B731576F26388AD300A6F4AD /* ProductModel.swift in Sources */,
+				B731578126388C5F00A6F4AD /* BaseViewController.swift in Sources */,
+				B731578C26388DDB00A6F4AD /* ProductListViewController.swift in Sources */,
+				B731577626388AFF00A6F4AD /* ReviewsModel.swift in Sources */,
 				B731570626387E3300A6F4AD /* AddidasTestUITests.swift in Sources */,
+				B731579526388F2D00A6F4AD /* ProductListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +825,7 @@
 		};
 		B731570B26387E3300A6F4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70544E07DF214E8526B326E4 /* Pods-AddidasTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,12 +839,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.AddidasTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B731570C26387E3300A6F4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DB291040A7DCB49738A51F /* Pods-AddidasTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,12 +859,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.AddidasTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B731570E26387E3300A6F4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EF76DECD6D946436134D47 /* Pods-AddidasTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +888,7 @@
 		};
 		B731570F26387E3300A6F4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F80FA091A0453474978299D /* Pods-AddidasTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +911,7 @@
 		};
 		B731571126387E3300A6F4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C482CA67B517DB2CB63C0E93 /* Pods-AddidasTest-AddidasTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +932,7 @@
 		};
 		B731571226387E3300A6F4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2C30DECBF745E4AB5675F1 /* Pods-AddidasTest-AddidasTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
